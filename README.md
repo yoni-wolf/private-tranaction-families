@@ -34,7 +34,7 @@ Hyperledger Sawtooth.
 ## Documentation
 
 Instructions for installing/building Hyperledger Private Transaction Families
-can be found in the [BUILD](BUILD.md) documentation.
+can be found in the [SETUP](SETUP.md) documentation.
 
 The [USAGE](USAGE.md) document describes how to submit encrypted transaction
 and submit encrypted read requests
