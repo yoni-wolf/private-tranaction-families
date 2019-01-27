@@ -2,7 +2,7 @@
 
 ## Pre Requisites
 
-Install all components as explained in the [setup guide](./SETUP.md)
+Install all components as explained in the [setup guide](SETUP.md)
 
 ## Generate the ledger keys
 
@@ -62,22 +62,29 @@ transactions.
 ## Submitting transactions
 
 For development usage, generate client member key pair: 
-`$ ./out/client_keys_creator`
+    
+    `$ ./out/client_keys_creator`
+
 An example client key is available under [Debug/client1_keys](./Debug/client1_keys])
 For production usage, use your preferred method for key generation and 
 handling (HSM, Vault, others...)
+
 The transaction generator is using a config json file. An example of a config 
 json file can be found under /Debug/txn_gen_example.json 
+
 Create and load private batch:
-`$ private-txn-generator create_batch -f path/to/config/file.json`
-`$ private-txn-generator load`
+
+    `$ private-txn-generator create_batch -f path/to/config/file.json`
+    `$ private-txn-generator load`
+
 To verify that transactions were submitted, check the Hyperledger Sawtooth 
 state and logs.
 
 ## Running read request script
 
 Go to [Debug/client_reader](Debug/client_reader) folder and run 
-`$ python3 read_request.py <address> -K <client public key>`
+
+    `$ python3 read_request.py <address> -K <client public key>`
 
   
 

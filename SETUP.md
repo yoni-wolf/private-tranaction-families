@@ -78,14 +78,17 @@ More information about Intel® SGX on Linux is available here:
    [https://sawtooth.hyperledger.org/docs/core/releases/latest/
     app_developers_guide/ubuntu.html#](https://sawtooth.hyperledger.org/docs/core/releases/latest/app_developers_guide/ubuntu.html)
 1. Install the latest stable release of Hyperledger Sawtooth 1.1:
-   - `$ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys
-      8AA7AF1F1091A5FD`
-   `$ sudo add-apt-repository 'deb [arch=amd64] http://repo.sawtooth.me/ubuntu/
-    bumper/stable xenial universe'`
-   `$ sudo apt-get update`
-   `$ sudo apt-get install -y sawtooth`
-   `$ sudo apt-get install -y -q sawtooth-devmode-engine-rust` 
-   (Note: this last command is for dev mode, can use any consensus you want)
+   - Install via apt-get:
+   
+         `$ sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv-keys
+         8AA7AF1F1091A5FD`    
+         `$ sudo add-apt-repository 'deb [arch=amd64] http://repo.sawtooth.me/ubuntu/
+         bumper/stable xenial universe'`         
+         `$ sudo apt-get update`         
+         `$ sudo apt-get install -y sawtooth`         
+         `$ sudo apt-get install -y -q sawtooth-devmode-engine-rust`          
+         (Note: this last command is for dev mode, can use any consensus you want)
+   
    - Continue the installation based on the procedure (you may stop at 
      "Starting the validator" step)
 1. Check that Hyperledger Sawtooth 1.1 was successfully installed: 
@@ -113,7 +116,7 @@ installation:
 ## Compile the Transaction Processor (TP)
 
 Note: if you don't wish to compile the TP sources you can skip this step and 
-just run it (see instructions in the [USAGE](./USAGE.md) document).
+just run it (see instructions in the [USAGE](USAGE.md) document).
 
 1. Install Hyperledger Sawtooth C++ SDK dependencies:
    - Log4cxx dev files -  `$ sudo apt-get install liblog4cxx10-dev`
@@ -146,6 +149,6 @@ just run it (see instructions in the [USAGE](./USAGE.md) document).
      [https://software.intel.com/sites/default/files/managed/ae/2e/
       Enclave-Signing-Tool-for-Intel-SGX.pdf](https://software.intel.com/sites/default/files/managed/ae/2e/Enclave-Signing-Tool-for-Intel-SGX.pdf)
 
-6. Continue with [usage guide](./USAGE.md)
+6. Continue with [usage guide](USAGE.md)
      
      

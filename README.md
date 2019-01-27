@@ -31,10 +31,17 @@ stable code or MVP. As such, Private-transaction-families is provided as a
 developer preview (Alpha) to demonstrate how privacy can be deployed on top of 
 Hyperledger Sawtooth.
 
-## How to use
+## Documentation
 
-1. [setup guide](./SETUP.md)
-1. [usage guide](./USAGE.md)
+Instructions for installing/building Hyperledger Private Transaction Families
+can be found in the [BUILD](BUILD.md) documentation.
+
+The [USAGE](USAGE.md) document describes how to submit encrypted transaction
+and submit encrypted read requests
+
+For more information about how Private Transaction Families work, see the
+[SPECIFICATION](SPECIFICATION.md) document.
+
   
 ## Initial Committers
 
