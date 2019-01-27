@@ -39,6 +39,7 @@ Hyperledger Sawtooth.
 - [Ronen Shem-tov](https://github.com/ronenshemtov)
 - [Edan Sorski](https://github.com/esorski)
 - [Oron Lenz](mailto:oron.lenz@intel.com)
+- [Guy Itzhaki](mailto:guy.itzhaki@intel.com)
 
   
 ## Sponsor
