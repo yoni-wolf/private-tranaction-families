@@ -49,5 +49,5 @@ Hyperledger Sawtooth.
 ## License
 
 Private-transaction-families software is released under the Apache License 
-Version 2.0 software license. See the license file for more details.
+Version 2.0 software license. See the [license](LICENSE) file for more details.
 
