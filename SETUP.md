@@ -144,6 +144,8 @@ just run it (see instructions in the [USAGE](./USAGE.md) document).
      In order to run with production SGX (SGX release mode), you will need 
      to follow the Intel® SGX whitelist process as documented in:
      [https://software.intel.com/sites/default/files/managed/ae/2e/
-      Enclave-Signing-Tool-for-Intel-SGX.pdf](https://software.intel.com/sites/default/files/managed/ae/2e/Enclave-Signing-Tool-for-Intel-SGX.pdf)  
+      Enclave-Signing-Tool-for-Intel-SGX.pdf](https://software.intel.com/sites/default/files/managed/ae/2e/Enclave-Signing-Tool-for-Intel-SGX.pdf)
+
+6. Continue with [usage guide](./USAGE.md)
      
      

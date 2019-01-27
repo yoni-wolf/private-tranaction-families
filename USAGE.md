@@ -116,7 +116,7 @@ remote-attestation-using](https://software.intel.com/en-us/articles/how-to-creat
    participates in the blockchain network
 4. On the machine that generated the keys (the server machine), run: 
    `$ ./keys_server`
-5. On the machine that doesnt have the keys and need to get them run: 
+5. On the machine that doesn't have the keys and need to get them run: 
    `$ ./keys_client <server machine IP>`
 
 ## Optional: Attaching a debugger to a running TP using vscode
