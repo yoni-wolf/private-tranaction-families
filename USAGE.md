@@ -9,9 +9,9 @@ Install all components as explained in the [setup guide](SETUP.md)
 1. the following tools can be found under 'out' folder:
     - kds_calculator - a tool to calculate kds (key derivation secret) for a 
       certain svn, from a given bds (base derivation secret)
-     - ksd_signer - tool to generate a kds signature with the administrator
+     - kds_signer - tool to generate a kds signature with the administrator
        key (located under ~/.stl_keys/admin_private[public]_key.hexstr)
-     - client_kyes_creator - generates new EC key pair and places it in the 
+     - client_keys_creator - generates new EC key pair and places it in the 
        current folder
 
 2.  If you do not want to use multi node, you can use the fake ledger keys 
